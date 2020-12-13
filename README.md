@@ -1,4 +1,4 @@
-# cindows-thegame VERSION 0.1.0
+# cindows-thegame
 Olha só, esse é um projeto que se tem a um tempo, mas só agora ta sendo feito devida a oportunidade em um projeto escolar. 
 A ideia é continuar mesmo depois de entregar a "versão final", assim ir melhorando com o tempo.
 
@@ -8,7 +8,7 @@ O objetivo do jogo e ir completando as fases e ganhando pontos até chegar no BO
 Existe um sistema de ranking que grava seus pontos pra você tirar foto e postar no Instagram como tu é TOP no game (ou não). 
 E como eu disse, o game ta em desenvolvimento, tem bugs, tem muitas coisas para serem feitas, mas da pra ter uma ideiazinha de como tá ate o momento.
 
-# VERSION 0.1.0 - O que tem e bom aí?
+# O que tem e bom aí?
 Nessa versão temos:
   - Menu do game
   - Sistema de Ranking (Salvo usando sistema de arquivos)

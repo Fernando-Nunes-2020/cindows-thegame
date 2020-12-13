@@ -24,4 +24,7 @@ Estou deixando o código ai pra quem quiser compilar o game e ver como ele funci
 Porém lembre-se, que estou utilizando algumas biliotecas nativas do WINDOWS, dai pra quem usa LINUX, foi mal aí irmão, vai ter que adaptar alguns troços! 
 MASSSS, tou deixando o .EXE do game também, pra quem usar o WINE ai no LINUX dar uma jogada se for possível (e quiser claro!)
 
+Anotações Extras: 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Caso vá compilar, por causa da biblioteca de som, use o comando -lwinmm no linker, se não, não vai rolar. 
+----------------------------------------------------------------------------------------------------------------------------------------------------------

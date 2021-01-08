@@ -4,14 +4,6 @@
 #include <conio.h>
 #include <windows.h>
 #include <MMsystem.h>
-#include <pthread.h>
-
-/*#ifndef _WIN32
-#include <curses.h> //Biblioteca para linux
-#else
-#include <conio.h> //Biblioteca para windows
-#endif*/
-
 #include <time.h>
 #include "cindows.h" 
 
@@ -49,6 +41,11 @@ main(){
 					telaStatusSup();
 					verificalevel(stageAtual);
 					xpUp();
+					if(fimdegame==1){
+						creditos();
+						atualizarRanking(ranking,posRankingPessoal);
+						break;
+					}
 				}
 				if(vida<=0){
 					PlaySound(NULL,0,0);
@@ -56,8 +53,7 @@ main(){
 					atualizarRanking(ranking,posRankingPessoal);
 					limpaTela();
 					printf(ANSI_COLOR_RED"GAME OVER AMIGO, POR ENQUANTO E RECOMECAR\n"ANSI_COLOR_RESET);
-					printf("\nPressione enter para continuar...");
-					getchar();
+					system("\npause\n");
 				}
 				break;
 			case 2:

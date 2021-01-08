@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <windows.h>
 #include <MMsystem.h>
-#include <pthread.h>
+#include <time.h>
 
 
 #define ANSI_COLOR_RED     	"\x1b[31m" //cores em ANSI utilizadas 
@@ -20,17 +20,12 @@
 
 #define ANSI_COLOR_CYN "\e[0;36m"
 
-/*#ifndef _WIN32
-#include <curses.h> //Biblioteca para linux
-#else
-#include <conio.h> //Biblioteca para windows
-#endif*/
-
-#include <time.h>
 
 
 
 FILE *save;
+
+
 
 //Mapas -- Variáveis Globais.
 char mapa1[12][70];
@@ -53,7 +48,7 @@ char nick[3];
 char saveNick[10][3];
 int stageAtual;
 int posX, posY, posAnteX, posAnteY;
-int musicControler;
+int musicControler, fimdegame;
 //Sistema
 
 //Player
@@ -61,7 +56,7 @@ int points;
 int vida, magia, maxvida, maxmagia, xp;
 int level, pocaov, pocaom;
 int defesa, ataquenormal, ataMagia3,ataFantasminha4,ataPacMan5,ataMartelo6,ataVirus7,ataLinux8;
-int vidaEnemy;
+int vidaEnemy, battleBoss;
 //Player
 
 //Funções
@@ -97,4 +92,6 @@ void carregarRanking(int *v_ranking, int *v_posRank);
 
 void carregaMapaSound();
 void inimigoAutomatico();
+int inimigosPerFase();
+void creditos();
 //Funções

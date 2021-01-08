@@ -1,0 +1,15 @@
+Genteee
+Sobre o LEIA-ME
+
+Para quem baixou a versão do GITHUB e vai compilar no WINDOWS (pq no Linux vai dar problema), 
+Usem no linker -lwinmm , se não vai dar guru. 
+
+Pra quem só vai analisar o código, fica a vontade!
+
+Pra quem quer jogar na máquina virtual enquanto ela ta no AR, segue ai o acesso! 
+
+-- VM ONLINE --
+User: cindows
+Pass: Cindowsgame1
+191.239.247.66
+RDP opção. 
